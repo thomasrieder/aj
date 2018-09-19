@@ -1,0 +1,37 @@
+<html>
+    <head>    
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="black">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="black">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+        <link rel="stylesheet" type="text/css" href="../css/draw.css">
+    </head>
+    
+    <body>
+    
+        <div class="page page-draw">
+            <div class="color-box">
+                <div class="color-btn red-btn"></div>
+                <div class="color-btn blue-btn"></div>
+                <div class="color-btn yellow-btn"></div>
+                <div class="color-btn green-btn"></div>
+                <div class="color-btn white-btn"></div>
+                <div class="color-btn eraser-btn">C</div>
+            </div>
+            <canvas id="cvs"></canvas>
+            <!--<div class="move-btn move-top"></div>
+            <div class="move-btn move-bottom"></div>
+            <div class="move-btn move-left"></div>
+            <div class="move-btn move-right"></div>-->
+        </div>
+    
+        <script src="../libs/socket.io.js"></script>
+        <script src="../libs/jquery-3.3.1.min.js"></script>
+        <script src="../js/draw.js"></script>
+    </body>
+    </html>
