@@ -30,16 +30,25 @@ body{
 .lui-btn{
     width: 100%;
     height: 50%;
-    background-color: #2980b9;
+    background-color: #00a8ff;
+    background-image: url('../img/andreas.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
 }
 .elle-btn{
     width: 100%;
     height: 50%;
     background-color: #e84393;
+    background-image: url('../img/justine.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+
 }
 .btn-le{
     vertical-align: top;
-    transition: height 500ms;
+    transition: height 500ms, background-size 500ms;
 }
 .btn-le h1{
     padding: 0;
@@ -51,16 +60,19 @@ body{
     justify-content: center;
     transition: opacity 200ms;
 }
+.close-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+  transition: opacity 500ms;
+  background-image: url('../img/close.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 .page-lui-elle{
     display: none;
-}
-
-/**
-* WELCOME PAGE
-*/
-
-li {
-    list-style: disc outside none;
-    display: list-item;
-    margin-left: 1em;
 }
